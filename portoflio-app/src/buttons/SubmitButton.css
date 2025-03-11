@@ -1,0 +1,32 @@
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border-radius: 12px;
+    background: linear-gradient(87deg, #0538FF 1.64%, #6B57F5 98.18%);
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+    height: 35px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Hover Effect */
+.submit-button:hover {
+    box-shadow: 0 0 10px rgba(126, 24, 161, 0.8), 
+                0 0 20px rgba(215, 109, 255, 0.7), 
+                0 0 30px rgba(255, 162, 217, 0.6);
+    transform: scale(1.05);
+}
+
+/* Click (Active) Effect */
+.submit-button:active {
+    transform: scale(0.98);
+}

@@ -1,0 +1,207 @@
+.project-modal-box-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 900px;
+  max-height: 90vh; /* Set a maximum height for the modal */
+  background-color: #F4F4F4;
+  box-shadow: 24px;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.project-modal-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  margin-top: 5px;
+  color: #495057;
+  text-align: center; /* Center the title */
+}
+
+.project-modal-description {
+  font-size: 14px;
+  text-align: center;
+  color: #495057;
+}
+
+.project-modal-button {
+  background-color: #0D0221;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.project-modal-button:hover {
+  background-color: #F4F4F4;
+  color: #0D0221;
+}
+
+/* Visit Site button styling based on the download-resume-button */
+.visit-site-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border-radius: 15px;
+  background: linear-gradient(90deg, #4936D4, #6568DF);
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+/* Link icon styling */
+.link-icon {
+  margin-left: 8px;
+  font-size: 18px;
+  color: white; /* Ensures icon is white */
+}
+
+/* Hover Effect for Visit Site button */
+.visit-site-button:hover {
+  box-shadow: 0px 5px 15px rgba(73, 54, 212, 0.4);
+  transform: scale(1.05);
+}
+
+/* Click Effect for Visit Site button */
+.visit-site-button:active {
+  transform: scale(0.95);
+}
+
+.project-modal-image {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: 50%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+}
+
+.project-modal-section-timeline {
+  color: #495057;
+  margin-bottom: 16px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+}
+
+.project-modal-section-timeline h3,
+.project-modal-section-timeline p {
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.project-modal-section-timeline h3 {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.project-modal-section-timeline p {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.project-modal-section {
+  margin-bottom: 20px;
+  margin-left: 15px;
+  margin-right: 25px;
+  margin-top: 5px;
+}
+
+.project-modal-section h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 2px;
+  color: #495057;
+}
+
+.project-modal-section p {
+  font-size: 16px;
+  color: #495057;
+}
+
+.linedivider {
+  border-bottom: 1px solid #495057;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .project-modal-title {
+    font-size: 24px;
+  }
+
+  .project-modal-description {
+    font-size: 12px;
+  }
+
+  .project-modal-image {
+    width: 70%;
+    height: auto;
+  }
+
+  .project-modal-section h3 {
+    font-size: 16px;
+  }
+
+  .project-modal-section p {
+    font-size: 14px;
+  }
+
+  .visit-site-button {
+    font-size: 14px;
+    padding: 4px 12px;
+  }
+
+  .link-icon {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .project-modal-title {
+    font-size: 20px;
+  }
+
+  .project-modal-description {
+    font-size: 10px;
+  }
+
+  .project-modal-image {
+    width: 90%;
+    height: auto;
+  }
+
+  .project-modal-section h3 {
+    font-size: 14px;
+  }
+
+  .project-modal-section p {
+    font-size: 12px;
+  }
+
+  .visit-site-button {
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+
+  .link-icon {
+    font-size: 14px;
+  }
+}

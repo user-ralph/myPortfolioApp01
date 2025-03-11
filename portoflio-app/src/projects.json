@@ -1,0 +1,140 @@
+{
+    "projects": {
+      "UI/UX Projects": {
+        "NeoShop": {
+          "title": "NeoShop",
+          "description": "A modern e-commerce platform tailored for gamers.",
+          "timeline": "Two weeks",
+          "overview": "NeoShop is a comprehensive e-commerce platform designed specifically for the gaming community. It provides a user-friendly interface for gamers to buy, sell, and trade games, accessories, and in-game items. The platform also features a community forum where gamers can connect and discuss their favorite games.",
+          "problemStatement": "Gamers often face challenges in finding reliable platforms to buy and sell gaming products. Existing e-commerce platforms may lack the specific features and community focus that gamers desire.",
+          "solution": "NeoShop addresses these challenges by providing a dedicated platform for gamers with features like secure transactions, community forums, and personalized recommendations. The platform's user-friendly interface and gamer-centric design enhance the overall user experience.",
+          "businessOpportunity": "NeoShop can generate revenue through transaction fees, premium memberships, and targeted advertising to the gaming community. The platform's strong community focus can also lead to partnerships with game developers and publishers.",
+          "image": "/assets/neoshop.jpg" 
+        },
+        "GanAPP": {
+          "title": "GanAPP",
+          "description": "A visually appealing event discovery and booking platform.",
+          "timeline": "Three weeks",
+          "overview": "GanAPP is an event discovery and booking platform that simplifies the process of finding and attending events. The platform features a visually appealing interface showcasing a wide range of events, from concerts and festivals to workshops and conferences. Users can easily browse events, purchase tickets, and manage their bookings within the app.",
+          "problemStatement": "Finding and booking events can be a time-consuming and cumbersome process. Users often have to navigate multiple websites and platforms to find the events they are interested in.",
+          "solution": "GanAPP streamlines the event discovery and booking process by aggregating events from various sources into a single platform. The app's intuitive interface and user-friendly features make it easy for users to find, book, and manage events.",
+          "businessOpportunity": "GanAPP can generate revenue through ticket sales commissions, premium event listings, and partnerships with event organizers. The platform's visually appealing design and user-friendly features can attract a large user base.",
+          "image": "/assets/ganapp.jpg" 
+        },
+        "LoopPay": {
+          "title": "LoopPay",
+          "description": "A seamless payment solution for recurring transactions.",
+          "timeline": "One week",
+          "overview": "LoopPay is a payment solution designed for recurring transactions, such as subscriptions and bill payments. The platform automates the payment process, eliminating the need for manual payments and reducing the risk of late fees. Users can easily manage their recurring payments and track their expenses within the app.",
+          "problemStatement": "Managing recurring payments can be a hassle, with users often forgetting due dates and incurring late fees. Existing payment solutions may not offer a seamless and automated way to handle recurring transactions.",
+          "solution": "LoopPay simplifies recurring payments by automating the payment process and providing users with a centralized platform to manage their subscriptions and bills. The app's user-friendly interface and payment reminders ensure timely payments and reduce the risk of late fees.",
+          "businessOpportunity": "LoopPay can generate revenue through transaction fees, premium features, and partnerships with businesses offering subscription services. The platform's convenience and automation can attract a large user base.",
+          "image": "/assets/looppay.jpg" 
+        },
+        "HomeFix On-Demand": {
+          "title": "HomeFix On-Demand",
+          "description": "A home maintenance booking app for plumbing, electrical, and repair services.",
+          "timeline": "Two weeks",
+          "overview": "HomeFix On-Demand connects homeowners with qualified professionals for various home maintenance needs, including plumbing, electrical work, and general repairs. The app allows users to easily book appointments, track the progress of their requests, and rate the service providers.",
+          "problemStatement": "Finding reliable and trustworthy home maintenance professionals can be a challenge. Homeowners often rely on word-of-mouth referrals or spend time searching online for qualified professionals.",
+          "solution": "HomeFix On-Demand provides a convenient platform for homeowners to find and book qualified professionals for their home maintenance needs. The app's rating and review system helps users make informed decisions, while the booking and tracking features streamline the process.",
+          "businessOpportunity": "HomeFix On-Demand can generate revenue through service fees, premium listings for professionals, and partnerships with home improvement stores. The platform's convenience and reliability can attract a large user base.",
+          "image": "/assets/homefix.jpg" 
+        },
+        "E-Library": {
+          "title": "E-Library",
+          "description": "A digital book library UI with search and categorization.",
+          "timeline": "One and a half weeks",
+          "overview": "E-Library is a digital book library platform that provides users with access to a vast collection of books. The platform features a user-friendly interface with advanced search and categorization options, making it easy for users to find the books they are interested in. Users can also create personalized reading lists and track their reading progress.",
+          "problemStatement": "Accessing and managing digital books can be challenging, with users often having to navigate multiple platforms and devices. Traditional libraries may have limited digital collections.",
+          "solution": "E-Library provides a centralized platform for users to access and manage their digital books. The platform's intuitive interface and advanced search features make it easy for users to find and organize their books.",
+          "businessOpportunity": "E-Library can generate revenue through subscription fees, premium features like offline reading, and partnerships with publishers. The platform's vast collection and user-friendly features can attract a large user base.",
+          "image": "/assets/elibra.jpg" 
+        },
+        "Public Transportation Navigator": {
+          "title": "Public Transportation Navigator",
+          "description": "An app that provides real-time updates and navigation for various public transportation options in Cagayan de Oro.",
+          "timeline": "Three weeks",
+          "overview": "Public Transportation Navigator is a mobile app that provides real-time updates and navigation for various public transportation options in Cagayan de Oro. The app helps users plan their journeys, track the location of buses and other public transport vehicles, and receive alerts about delays and disruptions.",
+          "problemStatement": "Navigating public transportation in Cagayan de Oro can be challenging due to limited information about routes, schedules, and real-time updates. Users often rely on outdated information or word-of-mouth, leading to delays and inconvenience.",
+          "solution": "Public Transportation Navigator addresses these challenges by providing users with accurate and up-to-date information about public transportation options in Cagayan de Oro. The app's real-time tracking and navigation features help users plan their journeys efficiently and avoid delays.",
+          "businessOpportunity": "Public Transportation Navigator can generate revenue through advertising, partnerships with local businesses, and premium features like personalized route planning and commute tracking. The app's usefulness and relevance to the local community can attract a large user base.",
+          "image": "/assets/transpo.jpg" 
+        }
+      },
+      "Front-End Builds": {
+        "C-OIS": {
+          "title": "C-OIS",
+          "description": "Track scholars' grades, attendance, and compliance.",
+          "timeline": "Four weeks",
+          "overview": "C-OIS is a comprehensive platform designed for educational institutions to track scholars' grades, attendance, and compliance with academic requirements. The platform provides a centralized system for managing student data, generating reports, and communicating with students and parents.",
+          "problemStatement": "Educational institutions often face challenges in managing student data, tracking academic progress, and ensuring compliance with academic requirements. Existing systems may be fragmented or lack the features needed for efficient data management.",
+          "solution": "C-OIS provides a centralized and user-friendly platform for managing student data, tracking academic progress, and ensuring compliance. The platform's reporting and communication features streamline administrative tasks and improve communication between the institution, students, and parents.",
+          "businessOpportunity": "C-OIS can generate revenue through licensing fees, subscription models, and partnerships with educational institutions. The platform's efficiency and comprehensive features can attract a wide range of educational institutions.",
+          "image": "/assets/devconnect.jpg" 
+        },
+        "RentEase": {
+          "title": "RentEase",
+          "description": "A user-friendly platform for property rentals.",
+          "timeline": "Two weeks",
+          "overview": "RentEase is a user-friendly platform that simplifies the process of finding and renting properties. The platform connects tenants with landlords, providing a seamless experience for browsing listings, scheduling viewings, and managing rental agreements. RentEase also features tools for rent payments and maintenance requests.",
+          "problemStatement": "Finding suitable rental properties and managing the rental process can be time-consuming and stressful for both tenants and landlords. Existing platforms may lack user-friendly features or transparency.",
+          "solution": "RentEase streamlines the rental process by providing a user-friendly platform with comprehensive features for searching listings, scheduling viewings, and managing rental agreements. The platform's transparency and communication tools foster trust between tenants and landlords.",
+          "businessOpportunity": "RentEase can generate revenue through listing fees, subscription models for landlords, and transaction fees for rent payments. The platform's user-friendly design and comprehensive features can attract a large user base.",
+          "image": "/assets/rentease.jpg" 
+        },
+        "Voter Education Hub": {
+          "title": "Voter Education Hub",
+          "description": "A civic education site with info on candidates, voting procedures, and advocacy.",
+          "timeline": "Three weeks",
+          "overview": "Voter Education Hub is a non-partisan platform dedicated to promoting civic engagement and informed voting. The platform provides comprehensive information about candidates, voting procedures, and important election issues. It also features resources for voter registration and advocacy initiatives.",
+          "problemStatement": "Voters often lack access to reliable and unbiased information about candidates, voting procedures, and election issues. This can lead to voter apathy or uninformed voting decisions.",
+          "solution": "Voter Education Hub addresses this challenge by providing a centralized platform with comprehensive and unbiased information about elections. The platform's user-friendly design and educational resources empower voters to make informed decisions and participate actively in the democratic process.",
+          "businessOpportunity": "Voter Education Hub can generate revenue through donations, grants, and partnerships with non-profit organizations. The platform's social impact and value to the community can attract a large and engaged audience.",
+          "image": "/assets/votershub.jpg" 
+        },
+        "Live Polling": {
+          "title": "Live Polling",
+          "description": "A real-time polling and voting platform with dynamic results.",
+          "timeline": "One week",
+          "overview": "Live Polling is a platform that allows users to create and participate in real-time polls and voting sessions. The platform features dynamic results display, making it engaging and interactive for users. Live Polling can be used for various purposes, from gathering opinions to conducting elections.",
+          "problemStatement": "Traditional polling methods can be time-consuming and lack real-time feedback. Users may not be engaged or motivated to participate in polls that lack interactivity.",
+          "solution": "Live Polling provides a dynamic and engaging platform for real-time polling and voting. The platform's interactive features and dynamic results display encourage user participation and provide instant feedback.",
+          "businessOpportunity": "Live Polling can generate revenue through subscription fees, premium features like custom branding and advanced analytics, and partnerships with organizations conducting surveys and elections. The platform's versatility and ease of use can attract a wide range of users.",
+          "image": "/assets/livepoll.jpg" 
+        }
+      },
+      "Interactive Prototypes": {
+        "Sari-Sari Store POS System": {
+          "title": "Sari-Sari Store POS System",
+          "description": "A user-friendly Point-of-Sale system tailored for small neighborhood stores, streamlining inventory and sales tracking.",
+          "timeline": "Two weeks",
+          "overview": "Sari-Sari Store POS System is a user-friendly Point-of-Sale system designed specifically for small neighborhood stores in the Philippines. The system simplifies inventory management, sales tracking, and customer management, making it easier for store owners to run their businesses efficiently.",
+          "problemStatement": "Many sari-sari stores in the Philippines still rely on manual record-keeping, which can be time-consuming and prone to errors. Existing POS systems may be too complex or expensive for small businesses.",
+          "solution": "Sari-Sari Store POS System provides an affordable and user-friendly solution for managing inventory, sales, and customer data. The system's intuitive interface and localized features make it easy for store owners to adopt and use.",
+          "businessOpportunity": "Sari-Sari Store POS System can generate revenue through subscription fees, transaction fees, and partnerships with local suppliers. The system's relevance to the specific needs of sari-sari stores can attract a large user base.",
+          "image": "/assets/sarisari.png" 
+        },
+        "StudySync": {
+          "title": "StudySync",
+          "description": "An AI-powered study companion.",
+          "timeline": "Three weeks",
+          "overview": "StudySync is an AI-powered study companion that helps students learn more effectively. The platform uses AI to personalize the learning experience, providing students with customized study plans, practice quizzes, and feedback on their progress. StudySync also features a virtual tutor that can answer questions and provide guidance.",
+          "problemStatement": "Students often struggle with staying motivated and organized while studying. Traditional study methods may not be effective for all students, and access to personalized guidance can be limited.",
+          "solution": "StudySync addresses these challenges by providing an AI-powered platform that personalizes the learning experience. The platform's adaptive learning technology and virtual tutor provide students with the support and guidance they need to succeed.",
+          "businessOpportunity": "StudySync can generate revenue through subscription fees, premium features like access to advanced study materials and one-on-one tutoring sessions, and partnerships with educational institutions. The platform's innovative approach to learning can attract a large student base.",
+          "image": "/assets/studysync.jpg" 
+        },
+        "Audio-Image Filter": {
+          "title": "Audio-Image Filter",
+          "description": "An AI-powered tool that filters inappropriate content from audio and images.",
+          "timeline": "Two weeks",
+          "overview": "Audio-Image Filter is an AI-powered tool that helps protect users from inappropriate content. The tool uses AI to analyze audio and images, identifying and filtering content that may be harmful or offensive. Audio-Image Filter can be used in various applications, from social media platforms to online games.",
+          "problemStatement": "The proliferation of inappropriate content online poses a risk to users, especially children. Existing content moderation tools may not be effective in identifying and filtering all types of inappropriate content.",
+          "solution": "Audio-Image Filter provides an AI-powered solution for identifying and filtering inappropriate content. The tool's advanced AI algorithms can detect subtle nuances and patterns that may be missed by traditional content moderation tools.",
+          "businessOpportunity": "Audio-Image Filter can generate revenue through licensing fees, subscription models, and partnerships with platforms and organizations seeking to protect their users from inappropriate content. The tool's effectiveness and potential for social impact can attract a wide range of clients.",
+          "image": "/assets/audimg.jpg" 
+        }
+      }
+    }
+  }

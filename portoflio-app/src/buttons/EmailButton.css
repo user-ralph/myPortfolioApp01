@@ -1,0 +1,17 @@
+/* EmailButton.css */
+.email-button {
+  padding: 7px 14px;
+  background-color: #fff;
+  color: #282828;
+  border-radius: 12px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  cursor: pointer;
+  border: none;
+  transition: box-shadow 0.3s ease, transform 0.2s ease; /* Add transition */
+}
+
+.email-button:hover {
+  box-shadow: 0 0 20px rgba(107, 87, 245, 0.8), 0 0 30px rgba(5, 56, 255, 0.6);
+  transform: scale(1.05);
+}

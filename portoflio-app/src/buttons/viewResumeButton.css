@@ -1,0 +1,49 @@
+/* View Resume Button Styling */
+.view-resume-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 140px;
+    padding: 8px 24px;
+    font-size: 16px;
+    font-weight: 200;
+    color: white;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    border-radius: 12px;
+    border: 1px solid white;
+    position: relative;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease, transform 0.2s ease; /* Add transition */
+    overflow: hidden;
+}
+
+/* Gradient Border with Animated Glow */
+.view-resume-button::before {
+    content: "";
+    position: absolute;
+    inset: -2px;
+    border-radius: 14px;
+    background: linear-gradient(-75deg, #D98D1D, #3C49F9, #D98D1D); 
+    z-index: -1;
+    animation: glowing-border 2s infinite linear;
+    padding: 2px;
+    -webkit-mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    mask: linear-gradient(white, white) content-box, linear-gradient(white, white);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
+/* Border Glow Animation */
+@keyframes glowing-border {
+    0% { filter: brightness(1); }
+    50% { filter: brightness(1.5); }
+    100% { filter: brightness(1); }
+}
+
+/* Hover Effect */
+.view-resume-button:hover {
+    box-shadow: 0 0 20px rgba(107, 87, 245, 0.8), 0 0 30px rgba(5, 56, 255, 0.6);
+    transform: scale(1.05);
+}

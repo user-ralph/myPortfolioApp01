@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    font-family: "Source Sans 3", sans-serif; /* Changed to sans-serif */
+    font-optical-sizing: auto;
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0; 
+}
+
+
+
+/* Smooth scrolling behavior */
+html, body {
+    scroll-behavior:smooth;
+    background-color:black; /* Dark mode background */
+    color: white;
+  }
+  
+  /* Custom scrollbar for WebKit browsers (Chrome, Safari) */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1); /* Dark semi-transparent track */
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #a855f7, #6B57F5); /* Gradient thumb */
+    border-radius: 10px;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #8A2BE2, #9400D3); /* Brighter gradient on hover */
+  }
+  
+  /* Firefox scrollbar styling */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #6B57F5 rgba(255, 255, 255, 0.1);
+  }
+  

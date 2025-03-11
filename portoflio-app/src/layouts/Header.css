@@ -1,0 +1,135 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 86px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(9px);
+  box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.header:hover {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Logo */
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.nav-links a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+/* Contact Button */
+.contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border-radius: 12px;
+  background: linear-gradient(87deg, #0538FF 1.64%, #6B57F5 98.18%);
+  color: white;
+  font-weight: 300;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease-in-out, transform 0.2s ease-in-out;
+  height: 35px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+}
+
+.contact-button:hover {
+  box-shadow: 0 0 10px rgba(126, 24, 161, 0.8),
+    0 0 20px rgba(215, 109, 255, 0.7),
+    0 0 30px rgba(255, 162, 217, 0.6);
+  transform: scale(1.05);
+}
+
+/* Dropdown Toggle */
+.dropdown-toggle {
+  display: none;
+  align-items: center;
+  cursor: pointer;
+}
+
+.caret-icon {
+  font-size: 24px;
+  color: white;
+  margin-right: 3px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding: 12px 20px;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-end;
+    position: fixed;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: #161617;
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 0;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    padding: 20px;
+    z-index: 999;
+    /* Apple-like animation */
+    transform: translateY(-100%); /* Initially hidden */
+    transition: transform 0.4s ease-in-out; /* Smooth transition */
+  }
+
+  .nav-links.open {
+    display: flex;
+    transform: translateY(0); /* Visible when open */
+  }
+
+  .nav-links a {
+    text-align: left;
+    width: 100%;
+    padding: 8px 12px;
+    box-sizing: border-box;
+  }
+
+  .contact-button {
+    padding: 6px 16px;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+
+  .dropdown-toggle {
+    display: flex;
+    margin-left: auto;
+  }
+}
