@@ -48,7 +48,7 @@ const AboutMe = () => {
           </p>
         </div>
         <div className="about-me-image">
-          <img src="/profilePicture.jpg" alt="Profile" className="about-me-profileimg" />
+          <img src="/src/assets/images/profilePicture.jpg" alt="Profile" className="about-me-profileimg" />
         </div>
       </div>
 
@@ -64,7 +64,7 @@ const AboutMe = () => {
               animate={inView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
               transition={{ duration: 1.05, ease: 'easeInOut', delay: index * 0.1 }}
             >
-              <img src={`/src/icons/${skill.icon}`} alt={skill.name} className="skill-icon" />
+              <img src={`/assets/icons/${skill.icon}`} alt={skill.name} className="skill-icon" />
               <span>{skill.name}</span>
             </motion.div>
           ))}

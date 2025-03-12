@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import './Certifications.css';
 
-import cert1 from '../icons/cert1.jpg';
-import cert2 from '../icons/cert2.jpg';
-import cert3 from '../icons/cert3.jpg';
-import cert4 from '../icons/cert4.jpg';
-import cert5 from '../icons/cert5.jpg';
+import cert1 from '/assets/icons/cert1.jpg';
+import cert2 from '/assets/icons/cert2.jpg';
+import cert3 from '/assets/icons/cert3.jpg';
+import cert4 from '/assets/icons/cert4.jpg';
+import cert5 from '/assets/icons/cert5.jpg';
 
 const certificationsData = [
   { image: cert1 },

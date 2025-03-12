@@ -2,7 +2,7 @@
     position: relative;
     width: 100%;
     min-height: 100vh;
-    background: url('./src/assets/upscalemedia-transformed.jpeg') no-repeat center center;
+    background: url('/assets/images/layout-cards/upscalemedia-transformed.jpeg') no-repeat center center;
     background-size: cover;
     display: flex;
     align-items: center;
