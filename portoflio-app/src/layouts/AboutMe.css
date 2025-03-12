@@ -282,4 +282,9 @@
     padding: 6px 16px;
     font-size: 14px;
   }
+
+  .about-me-text {
+    margin-left: 0;
+    text-align: center; 
+  }
 }

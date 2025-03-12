@@ -4,7 +4,7 @@ import './SubmitButton.css';
 const SubmitButton = ({ type }) => {
   return (
     <button type={type} className="submit-button">
-      Submit
+      Send Message
     </button>
   );
 };

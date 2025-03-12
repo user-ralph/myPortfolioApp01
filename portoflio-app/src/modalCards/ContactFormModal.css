@@ -1,151 +1,151 @@
 :root {
-    --primary-color: #FAFAFF; /* Custom variable for consistent color */
+  --primary-color: #FAFAFF; /* Custom variable for consistent color */
+}
+
+.modal-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  max-width: 650px;
+  height: 80vh;
+  background: rgba(250, 250, 255, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(7.5px);
+  -webkit-backdrop-filter: blur(7.5px);
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
+
+/* Scrollbar Styles */
+.modal-box::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-box::-webkit-scrollbar-track {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+.modal-box::-webkit-scrollbar-thumb {
+  background: rgba(31, 38, 135, 0.37);
+  border-radius: 10px;
+}
+
+.modal-box::-webkit-scrollbar-thumb:hover {
+  background: rgba(31, 38, 135, 0.5);
+}
+
+.modal-box {
+  scrollbar-width: thin; /* Firefox */
+  scrollbar-color: rgba(31, 38, 135, 0.37) rgba(255, 255, 255, 0.1);
+}
+
+/* Typography and Form Elements */
+.modal-box h2,
+.modal-box .MuiFormLabel-root,
+.modal-box .MuiInputLabel-root,
+.modal-box .MuiInputBase-root,
+.modal-box .MuiInputBase-input,
+.modal-box .MuiFormControlLabel-root,
+.modal-box .MuiCheckbox-root {
+  color: var(--primary-color);
+}
+
+.modal-box .MuiOutlinedInput-root {
+  & fieldset {
+    border-color: var(--primary-color);
   }
-  
+  &:hover fieldset {
+    border-color: var(--primary-color);
+  }
+  &.Mui-focused fieldset {
+    border-color: var(--primary-color);
+  }
+}
+
+/* Responsive Styles */
+@media (max-width: 1024px) {
   .modal-box {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
-    max-width: 650px;
-    height: 80vh;
-    background: rgba(250, 250, 255, 0.25);
-    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-    backdrop-filter: blur(7.5px);
-    -webkit-backdrop-filter: blur(7.5px);
-    border-radius: 5px;
-    border: 1px solid rgba(255, 255, 255, 0.18);
-    padding: 20px;
-    box-sizing: border-box;
-    overflow-y: auto;
+    width: 95%;
+    height: 75vh;
   }
-  
-  /* Scrollbar Styles */
-  .modal-box::-webkit-scrollbar {
-    width: 8px;
+
+  .modal-box h2 {
+    font-size: 24px;
   }
-  
-  .modal-box::-webkit-scrollbar-track {
-    background: rgba(255, 255, 255, 0.1);
-    border-radius: 10px;
-  }
-  
-  .modal-box::-webkit-scrollbar-thumb {
-    background: rgba(31, 38, 135, 0.37);
-    border-radius: 10px;
-  }
-  
-  .modal-box::-webkit-scrollbar-thumb:hover {
-    background: rgba(31, 38, 135, 0.5);
-  }
-  
-  .modal-box {
-    scrollbar-width: thin; /* Firefox */
-    scrollbar-color: rgba(31, 38, 135, 0.37) rgba(255, 255, 255, 0.1);
-  }
-  
-  /* Typography and Form Elements */
-  .modal-box h2,
-  .modal-box .MuiFormLabel-root,
+
   .modal-box .MuiInputLabel-root,
-  .modal-box .MuiInputBase-root,
-  .modal-box .MuiInputBase-input,
-  .modal-box .MuiFormControlLabel-root,
-  .modal-box .MuiCheckbox-root {
-    color: var(--primary-color);
+  .modal-box .MuiFormLabel-root {
+    font-size: 14px;
   }
-  
-  .modal-box .MuiOutlinedInput-root {
-    & fieldset {
-      border-color: var(--primary-color);
-    }
-    &:hover fieldset {
-      border-color: var(--primary-color);
-    }
-    &.Mui-focused fieldset {
-      border-color: var(--primary-color);
-    }
+
+  .modal-box .MuiInputBase-input {
+    font-size: 14px;
   }
-  
-  /* Responsive Styles */
-  @media (max-width: 1024px) {
-    .modal-box {
-      width: 95%;
-      height: 75vh;
-    }
-  
-    .modal-box h2 {
-      font-size: 24px;
-    }
-  
-    .modal-box .MuiInputLabel-root,
-    .modal-box .MuiFormLabel-root {
-      font-size: 14px;
-    }
-  
-    .modal-box .MuiInputBase-input {
-      font-size: 14px;
-    }
+}
+
+@media (max-width: 768px) {
+  .modal-box {
+    width: 95%;
+    height: 70vh;
   }
-  
-  @media (max-width: 768px) {
-    .modal-box {
-      width: 95%;
-      height: 70vh;
-    }
-  
-    .modal-box h2 {
-      font-size: 22px;
-    }
-  
-    .modal-box .MuiInputLabel-root,
-    .modal-box .MuiFormLabel-root {
-      font-size: 13px;
-    }
-  
-    .modal-box .MuiInputBase-input {
-      font-size: 13px;
-    }
+
+  .modal-box h2 {
+    font-size: 22px;
   }
-  
-  @media (max-width: 480px) {
-    .modal-box {
-      width: 100%;
-      height: 50vh;
-      margin: 0 5px 0 5px;
-    }
-  
-    .modal-box h2 {
-      font-size: 20px;
-    }
-  
-    .modal-box .MuiInputLabel-root,
-    .modal-box .MuiFormLabel-root {
-      font-size: 12px;
-    }
-  
-    .modal-box .MuiInputBase-input {
-      font-size: 12px;
-    }
+
+  .modal-box .MuiInputLabel-root,
+  .modal-box .MuiFormLabel-root {
+    font-size: 13px;
   }
-  
-  @media (max-width: 320px) {
-    .modal-box {
-      width: 100%;
-      height: 60vh;
-    }
-  
-    .modal-box h2 {
-      font-size: 18px;
-    }
-  
-    .modal-box .MuiInputLabel-root,
-    .modal-box .MuiFormLabel-root {
-      font-size: 11px;
-    }
-  
-    .modal-box .MuiInputBase-input {
-      font-size: 11px;
-    }
+
+  .modal-box .MuiInputBase-input {
+    font-size: 13px;
   }
+}
+
+@media (max-width: 480px) {
+  .modal-box {
+    width: 100%;
+    height: 50vh;
+    margin: 0 5px 0 5px;
+  }
+
+  .modal-box h2 {
+    font-size: 20px;
+  }
+
+  .modal-box .MuiInputLabel-root,
+  .modal-box .MuiFormLabel-root {
+    font-size: 12px;
+  }
+
+  .modal-box .MuiInputBase-input {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .modal-box {
+    width: 100%;
+    height: 60vh;
+  }
+
+  .modal-box h2 {
+    font-size: 18px;
+  }
+
+  .modal-box .MuiInputLabel-root,
+  .modal-box .MuiFormLabel-root {
+    font-size: 11px;
+  }
+
+  .modal-box .MuiInputBase-input {
+    font-size: 11px;
+  }
+}
