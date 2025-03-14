@@ -47,3 +47,36 @@
     box-shadow: 0 0 20px rgba(107, 87, 245, 0.8), 0 0 30px rgba(5, 56, 255, 0.6);
     transform: scale(1.05);
 }
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    .view-resume-button {
+        font-size: 14px;
+        padding: 6px 20px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .view-resume-button {
+        font-size: 12px;
+        padding: 5px 16px;
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .view-resume-button {
+        font-size: 10px;
+        padding: 4px 12px;
+        width: 110px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .view-resume-button {
+        font-size: 8px;
+        padding: 3px 8px;
+        width: 100px;
+    }
+}

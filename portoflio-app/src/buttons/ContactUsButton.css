@@ -1,42 +1,74 @@
 /* ContactUsButton.css */
 .contact-us-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 35px;
-    width: 140px;
-    padding: 12px 24px;
-    font-size: 16px;
-    font-weight: 200;
-    color: white;
-    border: none;
-    border-radius: 12px;
-    cursor: pointer;
-    transition: all 0.3s ease-in-out;
-    background: linear-gradient(-105deg, #0538FF, #6B57F5);
-    position: relative;
-    overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 35px;
+  width: 140px;
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  background: linear-gradient(-105deg, #0538FF, #6B57F5);
+  position: relative;
+  overflow: hidden;
+}
+
+/* Neon Gradient Border */
+.contact-us-button::before {
+  position: absolute;
+  inset: 0;
+  border-radius: 50px;
+  padding: 2px;
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
+
+/* Hover Effect */
+.contact-us-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(107, 87, 245, 0.6);
+}
+
+/* Click (Active) Effect */
+.contact-us-button:active {
+  transform: scale(0.98);
+  box-shadow: 0 0 10px rgba(107, 87, 245, 0.9);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .contact-us-button {
+      font-size: 14px;
+      padding: 10px 20px;
+      width: 130px;
   }
-  
-  /* Neon Gradient Border */
-  .contact-us-button::before {
-    position: absolute;
-    inset: 0;
-    border-radius: 50px;
-    padding: 2px;
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-us-button {
+      font-size: 12px;
+      padding: 8px 16px;
+      width: 120px;
   }
-  
-  /* Hover Effect */
-  .contact-us-button:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px rgba(107, 87, 245, 0.6);
+}
+
+@media screen and (max-width: 480px) {
+  .contact-us-button {
+      font-size: 10px;
+      padding: 6px 12px;
+      width: 110px;
   }
-  
-  /* Click (Active) Effect */
-  .contact-us-button:active {
-    transform: scale(0.98);
-    box-shadow: 0 0 10px rgba(107, 87, 245, 0.9);
+}
+
+@media screen and (max-width: 320px) {
+  .contact-us-button {
+      font-size: 8px;
+      padding: 4px 8px;
+      width: 100px;
   }
-  
+}
